@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: JsCat1/JD
+          repository: sixpencils/ym2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
